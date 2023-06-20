@@ -7,3 +7,8 @@ public plugins:myinfo
    version = "0.1"
    url = ""
 }
+
+public on:plguins:start()
+{
+regconsole ("sm_test",kill_me);
+}
