@@ -8,7 +8,12 @@ public plugins:myinfo
    url = ""
 }
 
-public onplguinsstart()
+public OnPluginsStart()
 {
 regconsolecmd ("sm_test",kill_me);
+}
+
+public action:kill_me(player)
+{
+
 }
