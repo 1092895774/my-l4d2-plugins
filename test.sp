@@ -8,7 +8,7 @@ public plugins:myinfo
    url = ""
 }
 
-public on:plguins:start()
+public onplguinsstart()
 {
-regconsole ("sm_test",kill_me);
+regconsolecmd ("sm_test",kill_me);
 }
